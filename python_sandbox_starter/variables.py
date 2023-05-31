@@ -16,5 +16,6 @@ VARIABLE RULES:
 """
 
 # Multiple assignment
+x, y, name, isCool = (2, 5.6, 'Jozey', True)
 
-
+print(name)
