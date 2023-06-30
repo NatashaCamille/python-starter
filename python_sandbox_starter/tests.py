@@ -5,5 +5,6 @@ class Customer:
         self.membership_type = membership_type
         print("customer created")
 
-c = Customer("Camille", 30, "Gold")
-print(c.name, c.age, c.membership_type)
+customers = [Customer("Camille", 30, "Gold"), Customer("Natasha", 29, "Platinum")]
+
+print(customers[0].name)
