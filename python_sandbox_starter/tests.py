@@ -7,4 +7,5 @@ class Customer:
 
 customers = [Customer("Camille", 30, "Gold"), Customer("Natasha", 29, "Platinum")]
 
-print(customers[0].name)
+print(customers[1].name)
+ 
