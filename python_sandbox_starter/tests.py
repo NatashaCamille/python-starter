@@ -8,16 +8,15 @@ class Customer:
         print("Calculating costs")
         self.membership_type = new_membrship
 
-    #Static method
-    def read_customer():
-        print("Reading customer from DB")
-
+    def __str__(self):
+        print("converting to string")
+        return self.name + " " + self.membership_type
 customers = [Customer("Camille", 30, "Gold"),
              Customer("Natasha", 29, "Platinum")]
 
-print(customers[1].membership_type)
+print(customers[1])
 customers[1].update_membership("Gold")
-print(customers[1].membership_type)
+print(customers[1])
 
-Customer.read_customer()
+
  
